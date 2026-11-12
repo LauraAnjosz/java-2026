@@ -21,7 +21,7 @@ public class Array2 {
             soma += notas[i]; //mesma coisa que: soma = soma + notas[i];
         }
 
-        double media = (double)soma / notas.length; // coloca o (double) para converter int para double momentariamente
+        double media = (double)soma / notas.length; // coloca o (double) para converter int para double momentaneamente
 
         System.out.printf("Média: %.2f", media);
     }
